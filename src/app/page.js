@@ -285,7 +285,7 @@ export default function Home() {
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.3}>
-                  <h2>15</h2>
+                  <h2>15+</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
@@ -298,13 +298,13 @@ export default function Home() {
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.4}>
-                  <h2>0%</h2>
+                  <h2>10000%</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.45}>
-                  <p>De regrets</p>
+                  <p>De kiff</p>
                 </Copy>
               </div>
             </div>
@@ -391,8 +391,8 @@ export default function Home() {
               <div className="gallery-callout-img gallery-callout-img-2">
                 <img src="/gallery-callout/gallery-callout-2.jpg" alt="" />
                 <div className="gallery-callout-img-content">
-                  <h3>800+</h3>
-                  <p>Project Images</p>
+                  <h3>5€ pour 48h</h3>
+                  <p>Location raclette & plancha</p>
                 </div>
               </div>
             </div>
@@ -407,11 +407,12 @@ export default function Home() {
           </div>
           <div className="gallery-callout-col">
             <div className="gallery-callout-copy">
-              <Copy delay={0.1}>
-                <h3>
-                  Gourm'Edhec est une association qui bénéficie du réseau EDHEC. Nous sommes toujours à la recherche de partenaires de confiance pour construire, ensemble, un monde plus stable autour de la gastronomie.
-                </h3>
-              </Copy>
+            <Copy delay={0.1}>
+  <h3>
+    GOURM’EDHEC est une association fièrement intégrée au réseau EDHEC. Nous proposons un service de location d’appareils à raclette et de planchas à seulement 5 € pour 48 h, à récupérer sur Lille, afin de régaler les étudiants EDHEC. Pour en profiter, il suffit de nous contacter à l'adresse{' '}
+    <a href="mailto:location@gourmedhec.fr">location@gourmedhec.fr</a> avec votre adresse EDHEC.
+  </h3>
+</Copy>
               <AnimatedButton label="Nous contacter" route="blueprints" />
             </div>
           </div>
