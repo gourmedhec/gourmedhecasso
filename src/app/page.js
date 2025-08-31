@@ -291,7 +291,7 @@ export default function Home() {
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.35}>
-                  <p>Événéments organisés par GOURM’EDHEC au cours de l'année</p>
+                  <p>Événements organisés par GOURM’EDHEC au cours de l'année</p>
                 </Copy>
               </div>
             </div>
@@ -317,19 +317,19 @@ export default function Home() {
             <Copy delay={0.1}>
               <h1>
               {/* <span className="spacer">&nbsp;</span>  */}
-                Chez GOURM’EDHEC, nous partageons notre passion pour la gastronomie et de nous promouvons un mode alimentaire sain et équilibré dans le milieu étudiant . 
+                Chez GOURM’EDHEC, nous partageons notre gourmandise et nous promouvons un mode alimentaire sain et équilibré dans le milieu étudiant . 
               </h1>
             </Copy>
           </div>
           <div className="what-we-do-content">
             <div className="what-we-do-col">
               <Copy delay={0.1}>
-                <p>Comment nous fonctionnons ?</p>
+                <h3>Comment nous fonctionnons ?</h3>
               </Copy>
 
               <Copy delay={0.15}>
                 <p className="lg">
-                Chaque membre ayant rejoint la Grande Famille se voit attribuer l'un des trois pôles : le pôle Logistique, le pôle Relations Partenaires ou le pôle Communication et Création. Les membres peuvent en plus de ce pôle rejoindre le pôle RSO.
+                Chaque membre ayant rejoint la Grande Famille travaille dans l'un de nos trois pôles principaux : le pôle Logistique, le pôle Relations Partenaires ou le pôle Communication et Création. S'il le souhaite, il peut en plus rejoindre le pôle RSO.
                 </p>
               </Copy>
             </div>
