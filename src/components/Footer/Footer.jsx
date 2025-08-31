@@ -12,7 +12,7 @@ import Copy from "../Copy/Copy";
 
 import { RiLinkedinBoxLine } from "react-icons/ri";
 import { RiInstagramLine } from "react-icons/ri";
-import { RiDribbbleLine } from "react-icons/ri";
+import { RiFacebookLine } from "react-icons/ri";
 import { RiYoutubeLine } from "react-icons/ri";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -52,11 +52,11 @@ const Footer = () => {
             <div className="footer-meta-block">
               <div className="footer-meta-logo">
                 <Copy delay={0.1}>
-                  <h3 className="lg">Gourm'Edhec</h3>
+                  <h1 className="lg">GOURM’EDHEC</h1>
                 </Copy>
               </div>
               <Copy delay={0.2}>
-                <h2>Spaces made simple, thoughtful, lasting.</h2>
+                <h3>Une association engagée, créative dans ses actions, durable dans son impact.</h3>
               </Copy>
             </div>
           </div>
@@ -70,7 +70,7 @@ const Footer = () => {
                     navigateWithTransition("/");
                   }}
                 >
-                  <h3>Index</h3>
+                  <h3>Accueil</h3>
                 </a>
                 <a
                   href="/studio"
@@ -79,7 +79,7 @@ const Footer = () => {
                     navigateWithTransition("/studio");
                   }}
                 >
-                  <h3>Studio</h3>
+                  <h3>Nos Événements</h3>
                 </a>
                 <a
                   href="/spaces"
@@ -88,7 +88,7 @@ const Footer = () => {
                     navigateWithTransition("/spaces");
                   }}
                 >
-                  <h3>Our Spaces</h3>
+                  <h3>Nos Membres</h3>
                 </a>
                 <a
                   href="/sample-space"
@@ -97,7 +97,7 @@ const Footer = () => {
                     navigateWithTransition("/sample-space");
                   }}
                 >
-                  <h3>One Installation</h3>
+                  <h3>Nos Locations</h3>
                 </a>
                 <a
                   href="/blueprints"
@@ -106,7 +106,7 @@ const Footer = () => {
                     navigateWithTransition("/blueprints");
                   }}
                 >
-                  <h3>Blueprints</h3>
+                  <h3>Nous Contacter</h3>
                 </a>
                 <a
                   href="/connect"
@@ -124,18 +124,27 @@ const Footer = () => {
         <div className="container footer-socials">
           <div className="footer-meta-col">
             <div className="footer-socials-wrapper" ref={socialIconsRef}>
-              <div className="icon">
-                <RiLinkedinBoxLine />
-              </div>
-              <div className="icon">
-                <RiInstagramLine />
-              </div>
-              <div className="icon">
-                <RiDribbbleLine />
-              </div>
-              <div className="icon">
-                <RiYoutubeLine />
-              </div>
+            <div className="icon">
+  <a
+    href="https://fr.linkedin.com/company/gourmedhec"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-current" // garde la couleur actuelle
+  >
+    <RiLinkedinBoxLine className="w-8 h-8 text-blue-700" /> {/* taille et couleur */}
+  </a>
+</div>
+<div className="icon">
+  <a href="https://www.instagram.com/gourmedhec_asso/" target="_blank" rel="noopener noreferrer">
+    <RiInstagramLine />
+  </a>
+</div>
+<div className="icon">
+  <a href="https://www.facebook.com/Gourmedhec/" target="_blank" rel="noopener noreferrer">
+    <RiFacebookLine />
+  </a>
+</div>
+
             </div>
           </div>
           <div className="footer-meta-col">
@@ -150,11 +159,11 @@ const Footer = () => {
       <div className="footer-outro">
         <div className="container">
           <div className="footer-header">
-            <img src="/logos/terrene-footer-logo.svg" alt="" />
+            <img src="/logos/terrene-logo.svg" alt="" />
           </div>
           <div className="footer-copyright">
             <p>
-              Developed by — <span>Codegrid</span>
+              Developpé par — <span>nobode</span>
             </p>
             <p>Ce site internet utilise vos cookies.</p>
             <p>Tous droits réservés &copy; 2025</p>

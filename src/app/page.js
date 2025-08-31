@@ -171,11 +171,11 @@ export default function Home() {
           <div className="intro-logo">
             <div className="word" id="word-1">
               <h1>
-                <span>Gourm'</span>
+                <span>GOURM’</span>
               </h1>
             </div>
             <div className="word" id="word-2">
-              <h1>Edhec</h1>
+              <h1>EDHEC</h1>
             </div>
           </div>
           <div className="divider"></div>
@@ -236,7 +236,7 @@ export default function Home() {
           <div className="hero-content">
             <div className="hero-header">
               <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
-                <h1>Gourm'Edhec régale les EDHECs</h1>
+                <h1>GOURM’EDHEC régale les EDHECs</h1>
               </Copy>
             </div>
             <div className="hero-tagline">
@@ -259,52 +259,52 @@ export default function Home() {
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.1}>
-                  <h2>225+</h2>
+                  <h2>2<sup>e</sup></h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.15}>
-                  <p>Completed design studies</p>
+                  <p>Concours culinaire étudiant de France, Toqu'Edhec, organisé par GOURM’EDHEC</p>
                 </Copy>
               </div>
             </div>
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.2}>
-                  <h2>36</h2>
+                  <h2>100%</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.25}>
-                  <p>Ongoing spatial explorations</p>
+                  <p>Satisfaction des participants à notre concours Toqu'Edhec</p>
                 </Copy>
               </div>
             </div>
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.3}>
-                  <h2>12</h2>
+                  <h2>15</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.35}>
-                  <p>Cross-disciplinary collaborators</p>
+                  <p>Événéments organisés par GOURM’EDHEC au cours de l'année</p>
                 </Copy>
               </div>
             </div>
             <div className="stat">
               <div className="stat-count">
                 <Copy delay={0.4}>
-                  <h2>98%</h2>
+                  <h2>0%</h2>
                 </Copy>
               </div>
               <div className="stat-divider"></div>
               <div className="stat-info">
                 <Copy delay={0.45}>
-                  <p>Return rate across commissions</p>
+                  <p>De regrets</p>
                 </Copy>
               </div>
             </div>
@@ -316,8 +316,8 @@ export default function Home() {
           <div className="what-we-do-header">
             <Copy delay={0.1}>
               <h1>
-                <span className="spacer">&nbsp;</span>
-                Chez Gourm'Edhec, nous promeuvons des produits de bonne qualité, sains et locaux.
+              {/* <span className="spacer">&nbsp;</span>  */}
+                Chez GOURM’EDHEC, nous partageons notre passion pour la gastronomie et de nous promouvons un mode alimentaire sain et équilibré dans le milieu étudiant . 
               </h1>
             </Copy>
           </div>
@@ -344,12 +344,12 @@ export default function Home() {
                 <div className="what-we-do-tag">
                   <h3>Convivialité</h3>
                 </div>
-                <div className="what-we-do-tag">
+                {/* <div className="what-we-do-tag">
                   <h3>Light-forward</h3>
                 </div>
                 <div className="what-we-do-tag">
                   <h3>Slow design</h3>
-                </div>
+                </div>*/}
                 <div className="what-we-do-tag">
                   <h3>Gourmandise</h3>
                 </div>
@@ -362,12 +362,12 @@ export default function Home() {
         <div className="container">
           <div className="featured-projects-header-callout">
             <Copy delay={0.1}>
-              <p>Nos événements</p>
+             {/*<p>Nos événements</p>*/}
             </Copy>
           </div>
           <div className="featured-projects-header">
             <Copy delay={0.15}>
-              <h2>Une sélection de nos événements à venir</h2>
+              <h1>Nos événements</h1>
             </Copy>
           </div>
         </div>
@@ -375,8 +375,8 @@ export default function Home() {
       </section>
       <section className="client-reviews-container">
         <div className="container">
-          <div className="client-reviews-header-callout">
-            <p>Nos Pôles</p>
+          <div className="client-reviews-header-callout" style={{ color: 'white' }}>
+            <h1>Nos Pôles</h1>
           </div>
           <ClientReviews />
         </div>
@@ -419,7 +419,7 @@ export default function Home() {
       </section>
       <CTAWindow
         img="/home/home-cta-window.jpg"
-        header="Gourm'Edhec"
+        header="GOURM’EDHEC"
         callout="Régaler les EDHECs"
         description="Notre vision est guidée par le désir de partager avec l'ensemble de nos étudiants notre passion pour la cuisine et le goût des bonnes choses."
       />

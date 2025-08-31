@@ -6,15 +6,15 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-1.jpg",
     avatar: "/clients/client-1.jpg",
     review:
-"La Logistique, c’est le fourneau de l’asso ! Dans ce pôle, tu superviseras l’organisation matérielle de nos événements. Ça passe par l’élaboration des recettes, la planification des staff d’event, l’événement. Anticiper les détails et réagir aux imprévus est la vie qu’ont décidé de mener les logueux. Si tu as la fibre organisationnelle et que tu es prêt à arpenter les rayons des supermarchés avec une calculatrice en main, la Log n’attend plus que toi !",  },
+"La Logistique est le cœur opérationnel de l’association ! Ce pôle supervise l’organisation matérielle de nos événements : élaboration des recettes, planification des équipes, anticipation des besoins et gestion des imprévus. Les membres de ce pôle assurent le bon déroulement de chaque événement, garantissant une expérience fluide et réussie pour tous. La Logistique est un pilier incontournable de notre association.",  },
   {
     id: 2,
-    name: "Pôle Relations Partenaires",
-    title: "Le Spons",
+    name: "Pôle Spons",
+    title: "Les Relations Partenaires",
     image: "/client-reviews/client-review-2.jpg",
     avatar: "/clients/client-2.jpg",
     review:
-    "Les Relations Partenaires est le pôle qui permet de faire entrer du biff dans l’asso ! Il est responsable des relations avec les partenaires notamment financiers. Les membres de ce pôle sont indispensables à la tenue de nos events. Comme tu peux l'imaginer, En bref, c'est le pôle qui fait kiffer les participants et les gagnants de nos événements grâce aux lots gourmands. Alors, si tu as du bagout, que tu n'as pas froid aux yeux et que tu aimes discuter avec les gens, rejoins notre équipe !",
+    "Le pôle Spons est le pôle qui assure le financement et le soutien de nos activités. Il gère les relations avec nos partenaires, en particulier financiers, et contribue directement au succès de nos événements. Grâce à son action, participants et gagnants profitent de lots attractifs et mémorables.",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-3.jpg",
     avatar: "/clients/client-3.jpg",
     review:
-"Le pôle Communication & Création, c’est la vitrine de l’asso. Communication et création sont les maîtres mots. Si le nom du pôle laisse a désirer, notre objectif c’est d’être désirés. Dans ce pôle tu pourras laisser libre cours à ta créativité et réfléchir à des stratégies pour créer les plus gros buzz (sur Facebook...). L’intérêt avec la KK c’est qeu tu es toujours en relation avec les autres pôles pour correspondre à leurs attentes. Ici, tu peux apprendre à maîtriser des logiciels sympas comme la suite Adobe, Figma ou encore Canva.",  },
+"Le pôle Communication & Création est la vitrine de l’association. Ce pôle allie créativité et stratégie pour valoriser nos actions et toucher notre public. Les membres développent des contenus attractifs, conçoivent des campagnes impactantes et collaborent avec tous les autres pôles pour répondre à leurs besoins. Une excellente opportunité pour maîtriser des outils comme Adobe, Figma ou Canva et participer à la visibilité et au rayonnement de l’association.",  },
   {
     id: 4,
     name: "Pôle RSO",
@@ -31,7 +31,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-4.jpg",
     avatar: "/clients/client-4.jpg",
     review:
-      "From first conversation to final delivery, the process was thoughtful and exact. Each stage revealed a design that was both surprising and completely aligned with how we wanted to live.",
+"Le pôle RSO est le pôle écoresponsable de l’association. Ses membres œuvrent à rendre nos événements plus durables, en intégrant des actions concrètes dans la logistique, la communication-création et le sponsoring. C’est le pôle le plus complet et formateur de l’association. Cette année, il offrira l’opportunité de lancer un nouvel événement tout en poursuivant et améliorant les initiatives existantes, comme les paniers primeurs.",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const clientReviewsContent = [
     image: "/client-reviews/client-review-5.jpg",
     avatar: "/clients/client-5.jpg",
     review:
-"La présidente doit faire en sorte que tout se déroule au mieux entre les membres. En plus de superviser les projets, elle représente l’association auprès de l’administration et endosse donc l’ensemble des responsabilités.",  },
+"Le Bureau assure la gouvernance et la coordination de l’association. La Présidente supervise les projets, représente l’association et assume l’ensemble des responsabilités administratives. Le Vice-Président coordonne les pôles. Le Secrétaire Général favorise la cohésion interne et agit comme interlocuteur principal avec les autres associations. La Trésorière veille à la santé financière de l’association en gérant les comptes et les flux financiers.",  },
 ];
 
 export default clientReviewsContent;

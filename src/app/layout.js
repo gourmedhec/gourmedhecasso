@@ -3,13 +3,13 @@ import ClientLayout from "@/client-layout";
 import TopBar from "@/components/TopBar/TopBar";
 
 export const metadata = {
-  title: "Terrene | MWT by Codegrid ",
-  description: "Monthly Website Template by Codegrid | August 2025",
+  title: "Gourm'Edhec | Association",
+  description: "Gourm'Edhec est l'association culinaire de l'EDHEC Business School",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body>
         <ClientLayout>
           <TopBar />
