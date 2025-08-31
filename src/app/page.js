@@ -235,15 +235,21 @@ export default function Home() {
         <div className="container">
           <div className="hero-content">
             <div className="hero-header">
-              <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
-                <h1>GOURM’EDHEC régale les EDHECs</h1>
-              </Copy>
+            <Copy animateOnScroll={false} delay={showPreloader ? 10 : 0.85}>
+  <h1 style={{ 
+    color: 'white', 
+    textShadow: '2px 2px 4px rgba(0,0,0,1)' 
+  }}>
+    GOURM’EDHEC régale les EDHECs
+  </h1>
+</Copy>
+
             </div>
             <div className="hero-tagline">
               <Copy animateOnScroll={false} delay={showPreloader ? 10.15 : 1}>
-                <p>
+                <h4>
                   Nous sommes l'association culinaire de l'EDHEC Business School.
-                </p>
+                </h4>
               </Copy>
             </div>
             <AnimatedButton

@@ -15,7 +15,7 @@ const page = () => {
             <div className="contact-col">
               <div className="contact-hero-header">
                 <Copy delay={0.85}>
-                  <h1>All spaces begin with intention</h1>
+                  <h1>Nous Contacter</h1>
                 </Copy>
               </div>
               <div className="contact-copy-year">
@@ -28,29 +28,28 @@ const page = () => {
               <div className="contact-info">
                 <div className="contact-info-block">
                   <Copy delay={0.85}>
-                    <p>General</p>
-                    <p>desk@terrene.studio</p>
+                    <p>Secrétaire Général</p>
+                    <p>dorian.foulquier@gourmedhec.fr</p>
                   </Copy>
                 </div>
                 <div className="contact-info-block">
                   <Copy delay={1}>
-                    <p>New Commissions</p>
-                    <p>build@terrene.studio</p>
-                    <p>+1 (872) 441‑2086</p>
+                    <p>Nos Locations</p>
+                    <p>location@gourmedhec.fr</p>
                   </Copy>
                 </div>
                 <div className="contact-info-block">
                   <Copy delay={1.15}>
-                    <p>Studio Address</p>
-                    <p>18 Cordova Lane</p>
-                    <p>Seattle, WA 98101</p>
+                    <p>Notre Adresse</p>
+                    <p>24 Av. Gustave Delory</p>
+                    <p>Roubaix 59100, France</p>
                   </Copy>
                 </div>
                 <div className="contact-info-block">
                   <Copy delay={1.3}>
-                    <p>Social</p>
+                    <p>Réseaux Sociaux</p>
                     <p>Instagram</p>
-                    <p>Are.na</p>
+                    <p>Facebook</p>
                     <p>LinkedIn</p>
                   </Copy>
                 </div>
@@ -58,7 +57,7 @@ const page = () => {
               <div className="contact-img">
                 <img
                   src="/contact/contact-img.jpg"
-                  alt="Terrene studio workspace"
+                  alt="Raclette"
                 />
               </div>
             </div>
