@@ -232,39 +232,31 @@ const Nav = () => {
             <div className="links">
               <div className="link">
                 <a href="/" onClick={(e) => handleLinkClick(e, "/")}>
-                  <h2>Acceuil</h2>
+                  <h2>Accueil</h2>
                 </a>
               </div>
               <div className="link">
                 <a
-                  href="/studio"
-                  onClick={(e) => handleLinkClick(e, "/studio")}
+                  href="/"
+                  onClick={(e) => handleLinkClick(e, "/")}
                 >
                   <h2>Nos Événements</h2>
                 </a>
               </div>
               <div className="link">
                 <a
-                  href="/spaces"
-                  onClick={(e) => handleLinkClick(e, "/spaces")}
+                  href="/"
+                  onClick={(e) => handleLinkClick(e, "/")}
                 >
                   <h2>Nos Membres</h2>
                 </a>
               </div>
               <div className="link">
                 <a
-                  href="/sample-space"
-                  onClick={(e) => handleLinkClick(e, "/sample-space")}
+                  href="/"
+                  onClick={(e) => handleLinkClick(e, "/")}
                 >
                   <h2>Nos Locations</h2>
-                </a>
-              </div>
-              <div className="link">
-                <a
-                  href="/blueprints"
-                  onClick={(e) => handleLinkClick(e, "/blueprints")}
-                >
-                  <h2>Nous Contacter</h2>
                 </a>
               </div>
               <div className="link">
@@ -272,30 +264,30 @@ const Nav = () => {
                   href="/connect"
                   onClick={(e) => handleLinkClick(e, "/connect")}
                 >
-                  <h2>Connect</h2>
+                  <h2>Nous Contacter</h2>
                 </a>
               </div>
+
             </div>
           </div>
           <div className="col col-2">
             <div className="socials">
               <div className="sub-col">
                 <div className="menu-meta menu-commissions">
-                  <p>Commissions</p>
-                  <p>build@terrene.studio</p>
-                  <p>+1 (872) 441‑2086</p>
+                  <p>Contact</p>
+                  <p>dorian.foulquier@gourmedhec.fr</p>
                 </div>
                 <div className="menu-meta">
-                  <p>Studio Address</p>
-                  <p>18 Cordova Lane</p>
-                  <p>Seattle, WA 98101</p>
+                  <p>Adresse</p>
+                  <p>24 Av Gustave Delory</p>
+                  <p>Roubaix, France</p>
                 </div>
               </div>
               <div className="sub-col">
                 <div className="menu-meta">
-                  <p>Social</p>
+                  <p>Réseaux Sociaux</p>
                   <p>Instagram</p>
-                  <p>Are.na</p>
+                  <p>LinkedIn</p>
                   <p>LinkedIn</p>
                 </div>
               </div>

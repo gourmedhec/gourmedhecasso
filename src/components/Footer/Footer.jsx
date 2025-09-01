@@ -163,7 +163,7 @@ const Footer = () => {
           </div>
           <div className="footer-copyright">
             <p>
-              Developpé par — <span>nobode</span>
+              Developpé par — <span>le pôle Communication & Création</span>
             </p>
             <p>Ce site internet utilise vos cookies.</p>
             <p>Tous droits réservés &copy; 2025</p>

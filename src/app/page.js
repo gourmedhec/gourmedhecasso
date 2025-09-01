@@ -254,7 +254,7 @@ export default function Home() {
             </div>
             <AnimatedButton
               label="Nos événements"
-              route="/studio"
+              route="/"
               animateOnScroll={false}
               delay={showPreloader ? 10.3 : 1.15}
             />
@@ -419,7 +419,7 @@ export default function Home() {
     <a href="mailto:location@gourmedhec.fr">location@gourmedhec.fr</a> avec votre adresse EDHEC.
   </h3>
 </Copy>
-              <AnimatedButton label="Nous contacter" route="blueprints" />
+              <AnimatedButton label="Nous contacter" route="connect" />
             </div>
           </div>
         </div>
